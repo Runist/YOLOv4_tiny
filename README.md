@@ -1,6 +1,6 @@
-# Yolov4
+# Tiny_Yolov4
 
-> Are you looking for lightweight tiny_YOLOv4? Stop looking, this repository is what you want.<br>
+> Are you looking for lightweight Tiny_YOLOv4? Stop looking, this repository is what you want.<br>
 
 ![show.jpg](https://i.loli.net/2020/12/28/coRpvPNWUJG4ur6.jpg)
 
