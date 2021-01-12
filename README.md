@@ -1,53 +1,35 @@
 # Yolov4
 
-> Are you looking for lightweight YOLOv4? Stop looking, this repository is what you want.<br>
+> Are you looking for lightweight tiny_YOLOv4? Stop looking, this repository is what you want.<br>
 
 ![show.jpg](https://i.loli.net/2020/12/28/coRpvPNWUJG4ur6.jpg)
 
-## New feature for YOLOv3
+## Total Parameter
 
-### Bag of  freebies
-
-- [x] Mixup
-- [ ] CutOut
-- [ ] CutMix
-- [ ] Blur
-- [x] Mosaic
-- [x] Focal loss
-- [x] CIoU loss
-- [x] Label smoothing
-- [ ] DropConnect
-- [x] DropBlock, DropOut
-
-### Bag of specials
-
-- [x] SPPNet
-- [x] PANet
-- [ ] SE, SAM
-- [ ] SFAM, ASFF, BiFPN
-- [x] Mish
-- [x] CSP-Darknet53
-- [ ] CBN
+| Model       | Number of parameter |
+| ----------- | ------------------- |
+| YOLOv4      | 64,106,305          |
+| Tiny_YOLOv4 | 5,924,214           |
 
 ## 1. Quick Start.
 
 1. Clone the repository.
 
 ```
-$ git clone https://github.com/Runist/YOLOv4.git
+$ git clone https://github.com/Runist/YOLOv4_tiny.git
 ```
 
 2. You are supposed to install some dependencies before getting out hands with these codes.
 
 ```
-$ cd YOLOv4
+$ cd YOLOv4_tiny
 $ pip install -r requirements.txt
 ```
 
 3. Download VOC weights.
 
 ```
-$ wget https://github.com/Runist/YOLOv4/releases/download/v1.0/voc_weight.h5
+$ wget https://github.com/Runist/YOLOv4_tiny/releases/download/v1.0/voc_weight.h5
 ```
 
 ## 2. Train your dataset.
